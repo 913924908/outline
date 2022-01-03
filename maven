@@ -1,0 +1,41 @@
+bin
+  mvn
+    compile
+    test
+    package
+    install
+    archetype:generate
+conf
+  settings.xml
+lib
+repository
+  坐标
+    jar
+
+src
+  main  
+    java
+    resources
+  test
+pom.xml
+  dependencies
+    dependency
+      groupId
+      atifactId
+      version
+      optional-这个坐标不可以被外界依赖
+      exclusions
+        exclusion
+      scope
+        compile-main test package
+        test-test
+        provided-main test
+        runtime-package
+  build
+    plugins
+      plugin
+      
+      
+pom.xml-dependency
+  
+    
