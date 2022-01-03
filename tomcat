@@ -1,0 +1,15 @@
+bin
+  startup.bat
+conf
+  tomcat-user.xml
+  
+lib
+webapps
+  manager
+    META-INF
+      context.xml
+  project1  
+  
+
+安装了tomcat软件的主机是web服务器
+把项目copy到webapps目录下，就相当于将项目部署到web服务器里了，其他服务器上的浏览器就可以通过ip port path访问到这个项目资源了
