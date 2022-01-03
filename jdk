@@ -1,0 +1,14 @@
+bin
+  java.exe
+  javac.exe
+  javap.exe
+  jconsole.exe
+  jinfo.exe
+  jmap.exe
+  jstat.exe
+jre
+  bin
+    server
+      jvm.dll
+  lib
+lib
