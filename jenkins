@@ -1,0 +1,21 @@
+config.xml
+config-history
+  jobs
+    task
+fingerprints-跟踪人工操作的痕迹
+jobs
+  workspace
+    task-新建任务
+      builds
+        1
+          build.xml
+          rpm
+          iso.sha256
+        2
+      config.xml
+      nextBuildNumber
+nodes
+plugins
+  maven-plugin
+users
+war
