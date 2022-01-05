@@ -1,0 +1,13 @@
+权限
+  chown
+    -h
+网络
+  ping
+  arp
+    工作流程
+      先去arp缓存找是否有目标ip
+      
+kvm虚拟化
+  virsh
+    list
+    dumpxml id/name
